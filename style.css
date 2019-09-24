@@ -20,7 +20,6 @@ html, body {
 		grid-area: footer;
 }
 
-
 .wrapper {
     min-height: 100%;
 		display: grid;
@@ -34,7 +33,6 @@ html, body {
 		background-color: #fffff;
 		color: #444444;
 }
-
 
 .box {
   background-color: #ddd4d4;
