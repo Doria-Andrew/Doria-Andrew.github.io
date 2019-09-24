@@ -4,16 +4,15 @@ html, body {
   height: 100%;
 }
 
+.header {
+		grid-area: header;
+}
 .sidebar {
 		grid-area: sidebar;
 }
 
 .content {
 		grid-area: content;
-}
-
-.header {
-		grid-area: header;
 }
 
 .footer {
