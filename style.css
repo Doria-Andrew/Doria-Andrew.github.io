@@ -6,6 +6,7 @@ html, body {
 
 .header {
 		grid-area: header;
+    background-color: #3fb0ac;
 }
 .sidebar {
 		grid-area: sidebar;
@@ -17,6 +18,7 @@ html, body {
 
 .footer {
 		grid-area: footer;
+    background-color: #173e43;
 }
 
 .wrapper {
@@ -34,17 +36,6 @@ html, body {
 }
 
 .box {
-  background-color: #ddd4d4;
-  color: #fff;
   border-radius: 10px;
   padding:
-  font-size: 150%;
-}
-
-.header {
-background-color: #3fb0ac;
-}
-
-.footer {
-  background-color: #173e43;
 }
