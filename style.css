@@ -44,6 +44,27 @@ html, body {
     background-color: #dddfd4;
 }
 
+.my-btns .button {
+  background-color: #fae596;
+  border: 1px solid #173e43;
+  color: #173e43;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+.my-btns .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.my-btns .button:hover {
+  background-color: #dddfd4;
+}
+
 .footer {
 		grid-area: footer;
     background-color: #173e43;
