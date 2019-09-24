@@ -4,23 +4,6 @@ html, body {
   height: 100%;
 }
 
-.header {
-		grid-area: header;
-    background-color: #3fb0ac;
-}
-.sidebar {
-		grid-area: sidebar;
-}
-
-.content {
-		grid-area: content;
-}
-
-.footer {
-		grid-area: footer;
-    background-color: #173e43;
-}
-
 .wrapper {
     min-height: 100%;
 		display: grid;
@@ -32,10 +15,32 @@ html, body {
 		"sidebar content content"
 		"footer  footer  footer";
 		background-color: #fffff;
-		color: #444444;
 }
 
 .box {
-  border-radius: 10px;
-  padding:
+  padding: 15px;
+}
+
+.header {
+		grid-area: header;
+    background-color: #3fb0ac;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+.sidebar {
+		grid-area: sidebar;
+    background-color: #3fb0ac;
+    color: #000000;
+}
+
+.content {
+		grid-area: content;
+    color: #000000;
+}
+
+.footer {
+		grid-area: footer;
+    background-color: #173e43;
+    color: #ffffff;
 }
