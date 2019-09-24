@@ -4,11 +4,11 @@ html, body {
   height: 100%;
 }
 
-.wrapper {
+.container {
     min-height: 100%;
 		display: grid;
     grid-gap:
-    grid-template-columns: 60px 120px 120px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px auto 80px;
 		grid-template-areas:
     "header header header"
