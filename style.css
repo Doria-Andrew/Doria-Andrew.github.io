@@ -37,6 +37,7 @@ html, body {
 .content {
 		grid-area: content;
     color: #000000;
+    background-color: #dddfd4;
 }
 
 .footer {
