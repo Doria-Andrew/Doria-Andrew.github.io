@@ -30,8 +30,15 @@ html, body {
     font-weight: bold;
     font-size: 30px;
     line-height: 50px;
-
 }
+
+.header img {
+    max-width: 10%;
+    height: auto;
+    position: relative;
+    index: 0;
+}
+
 .sidebar {
 	grid-area: sidebar;
     background-color: #3fb0ac;
