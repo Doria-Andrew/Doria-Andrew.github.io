@@ -38,6 +38,10 @@ html, body {
     color: #000000;
 }
 
+.sidebar h3 {
+  margin-left: 10px;
+}
+
 .content {
 		grid-area: content;
     color: #000000;
