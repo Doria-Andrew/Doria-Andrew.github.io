@@ -38,7 +38,7 @@ html, body {
     position: absolute;
     display: block;
     index: 0;
-
+    margin-left: 10px;
 }
 
 .sidebar {
