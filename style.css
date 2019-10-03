@@ -72,3 +72,21 @@ html, body {
     background-color: #173e43;
     color: #ffffff;
 }
+
+.footer a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #fae596;
+}
+
+.footer a:active {
+  text-decoration: none;
+}
