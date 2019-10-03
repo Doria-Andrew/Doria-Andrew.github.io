@@ -71,6 +71,7 @@ html, body {
 		grid-area: footer;
     background-color: #173e43;
     color: #ffffff;
+    text-align: center;
 }
 
 .footer a:link {
