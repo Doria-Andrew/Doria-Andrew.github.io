@@ -80,6 +80,7 @@ html, body {
 
 .footer a:visited {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .footer a:hover {
