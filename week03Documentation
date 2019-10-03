@@ -1,0 +1,23 @@
+JavaScript Objects are data types like the seven primitive data types: strings, numbers, booleans, etc.
+
+JavaScript Objects are containers storing related data and functionality.
+
+An object in HavaScript is self-contained set of related values and functions.
+
+One way to think about an object is that it's like a dictionary where you look up a property name and see a value.
+
+property = an attribute of something
+value = quantity, number, noun, thing
+
+It's like a database of values. They are much more flexible, as they can ve employed to encapsulate code that can be reused throughout a program.
+
+Objects are often used to keep any related info and functionality together in the same place. Foe example, if you wrote functions that found the perimeter and area of a square, you might want to group them togeher as methodsa of the same object that also included a length property.
+
+Object Example:
+
+let spaceship = {
+  'Fuel Type': 'diesel',
+  color: 'silver'
+  }
+  
+  In this example, spaceship is the object, 'Fuel Type' and color are the the keys, 'diesel' and 'silver' are the values. The properties are 'Fuel Type': 'diesel': color: 'silver' 
