@@ -8,6 +8,28 @@
 	<meta name="description" content="my github webpage">
 	<link href="style.css" type="text/css" rel="stylesheet" />
   <title>Andrew's GitHub Repository</title>
+
+  <script type="text/javascript">
+    // This is an object literal that describes me.
+    const andrewDoria = {
+      name: 'Andrew Doria',
+      'nick name': 'Drew',
+      language: 'English',
+      height: 73,
+      weight: 185,
+      'home state': 'California',
+      married: true;
+      kids: ['Celeste','Kaleb','Konnor','Levi'],
+      favoriteHobby() {
+          return 'Video Games';
+      }
+
+      document.getElementById('outputDiv').innerHTML = andrewDoria.favoriteHobby;
+
+};
+
+  </script>
+
 </head>
 <body>
 
@@ -16,7 +38,7 @@
   <![endif]-->
 
   <div class="container">
-    <div class="box header">Andrew's GitHub Repo - CIT 261</div>
+    <div class="box header"><a href="https://www.codeninjas.com"><img src="codeNinjas.png" alt="Code Ninjas Logo"></a>Andrew's GitHub Repo - CIT 261</div>
     <div class="box sidebar"><h3>Fluency Evidence</h3><div class="my-btns">
           <button class="button"><a href= "index.html">JavaScript</button></a>
           <button class="button"><a href= "objects.html">JavaScript Objects</button></a>
@@ -32,7 +54,7 @@
           <button class="button">CSS3 Transitions</button>
           <button class="button">CSS3 Transitions</button>
         </div></div>
-    <div class="box content"><h1>JavaScript Objects</h1><p>This is where my fluency examples will go.</p></div>
+    <div class="box content"><h1>JavaScript Objects</h1><p>Welcome to Andrew's GitHub Repository!<br><br>Want to know what Andrew's favorite hobby is? <button type="button" onclick="andrewDoria.favoriteHobby()">Click me!</button><div id="outputDiv"></div></p></div>
     <div class="box footer">
       <p><a href="https://github.com/Doria-Andrew/Doria-Andrew.github.io/tree/master">Doria-Andrew.github.io</a></p>
     </div>
